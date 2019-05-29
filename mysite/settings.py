@@ -28,7 +28,7 @@ DEBUG = True
 #ALLOWED_HOSTS = []
 #ALLOWED_HOSTS = ['127.0.0.1','pythonanywhere.com']
 #ALLOWED_HOSTS = ['127.0.0.1','localhost']
-ALLOWED_HOSTS = ['127.0.0.1','marcocasillas91.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1','marcocasillas91.XFrameOptionsMiddlewarepythonanywhere.com']
 
 
 # Application definition
@@ -127,3 +127,15 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR,'static')
+
+"""
+STATICFILES_DIRS = [
+os.path.join(BASE_DIR,'static'),
+'Users/Marco .LAPTOP-8I11FSGG/djangogirls/blog/static',
+
+]
+""" 
+
+
+
+
