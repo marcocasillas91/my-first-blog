@@ -28,7 +28,8 @@ DEBUG = True
 #ALLOWED_HOSTS = []
 #ALLOWED_HOSTS = ['127.0.0.1','pythonanywhere.com']
 #ALLOWED_HOSTS = ['127.0.0.1','localhost']
-ALLOWED_HOSTS = ['127.0.0.1','marcocasillas91.XFrameOptionsMiddlewarepythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1','marcocasillas91.XFrameOptionsMiddlewarepythonanywhere.com',
+                'marcocasillas91.pythonanywhere.com']
 
 
 # Application definition
